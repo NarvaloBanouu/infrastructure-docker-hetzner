@@ -1,0 +1,7 @@
+.env
+*.pem
+*.key
+*/data/
+*/uploads/
+*/model-cache/
+*/postgres/

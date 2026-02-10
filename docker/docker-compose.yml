@@ -1,0 +1,9 @@
+version: '3.8'
+
+services: {}
+# Cette section importe vos fichiers existants sans les modifier
+include:
+  - ./uptime-kuma/docker-compose.yml
+  - ./immich/docker-compose.yml
+  - ./portainer/docker-compose.yml
+  - ./vaultwarden/docker-compose.yml
